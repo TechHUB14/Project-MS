@@ -1,0 +1,116 @@
+/* Apply background image to the entire body */
+body.tenderlog-page  {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure body takes full viewport height */
+    /* Path to your background image */
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+  }
+  
+  /* .tender-login-container: Main container for the login page */
+  .tender-login-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/images/9.png'); /* Reference to dep.jpg */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* tender-login-header: Header with background color and centered text */
+  .tender-login-header {
+    background: linear-gradient(90deg, rgba(218, 57, 254, 0.7), rgba(37, 117, 252, 0.8)); /* Semi-transparent background */
+    padding: 15px 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; /* Times New Roman font */
+    font-weight: bolder;
+    width: 100%; /* Ensure header spans full width */
+    position: fixed; /* Fix header at the top of the page */
+    top: 0;
+    left: 0;
+    z-index: 10; /* Ensure header stays above other elements */
+  }
+  
+  /* .tender-login-form: Center the login form in the middle of the page */
+  .tender-login-form {
+    margin: auto;
+  
+    padding: 20px 105px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background for the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header inside the form */
+  .tender-login-form h1 {
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: rgb(5, 5, 5);
+    font-size: 35px;
+  }
+  
+  /* Styling the form group (label + input) */
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+   
+  }
+  
+  /* Label styling */
+  .form-group label {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    width: 40%;
+    text-align: left;
+    
+    font-size: 20px;
+  }
+  .alpha{color: white;}
+  
+  /* Input field styling */
+  .form-group input,
+  .form-group select {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    width: 55%; /* Same width for inputs and select */
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  /* Select dropdown styling */
+  .form-group select {
+    cursor: pointer;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  /* Login button styling */
+  .tender-login-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  
+  

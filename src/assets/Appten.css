@@ -1,0 +1,107 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #eef2f3, #ffffff);
+}
+ .whole{
+    background-image: url("../assets/images/11.png");
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+ }
+/* Header */
+.header1 {
+    background-color: rgba(214, 115, 253, 0.8);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.header .title {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Main Content */
+.main-content {
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.main-content h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+/* Table */
+.projects-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.projects-table th,
+.projects-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.projects-table th {
+    background-color: #4099ff;
+    color: white;
+    font-weight: bold;
+}
+
+.projects-table td {
+    background-color: #fff;
+}
+
+.projects-table input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+.masu{
+    color: black;
+}
+
+/* Buttons */
+.spec-button,
+.apply-button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.spec-button:hover,
+.apply-button:hover {
+    background-color: #1558b0;
+}
+
+/* Applied Button State */
+.apply-button.applied {
+    background-color: #28a745;
+    cursor: not-allowed;
+}
+
+/* Table Styling for Alternating Rows */
+.projects-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

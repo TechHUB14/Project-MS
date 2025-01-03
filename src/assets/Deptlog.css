@@ -1,0 +1,123 @@
+/* DeptLogin.css */
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  left: 0;
+}
+.header-left {
+  display: flex;
+  
+  gap: 15px;
+}
+
+.dept-login-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/images/9.png'); /* Reference to dep.jpg */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .dept-login-header {
+    background: linear-gradient(90deg, rgba(218, 57, 254, 0.7), rgba(37, 117, 252, 0.8)); /* Semi-transparent background */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .dept-login-title {
+    font-size: 2rem;
+    color: black;
+  }
+  
+  .dept-login-form {
+    margin: auto;
+  
+    padding: 20px 105px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background for the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1{color: black;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;}
+h2{text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-size: 35px;}
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #000;
+  }
+  label{color: black;}
+  
+  .form-group select,
+  .form-group input {
+   
+    padding: 15px 45px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  h6{ font-size: 30px;
+  text-align: center;
+font-family: 'Times New Roman', Times, serif;}
+  .dept-login-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dept-login-button:hover {
+    background-color: #5a5a5a;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  /* DeptLogin.css */
+
+/* Add this to the bottom of the file */
+.home-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #d673fd;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .home-icon:hover {
+    transform: scale(1.1);
+    background-color: #d673fd;
+    color: #fff;
+  }
+  

@@ -1,0 +1,28 @@
+.dept-login-container1{
+background-image: url("../assets/images/11.png");
+background-size: cover;
+height: 100%;
+width: 100%;
+}
+.admin{
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 10px 10px;
+    background-color:rgba(233, 242, 233, 0.9);
+    margin-top: 125px;
+    border-radius: 10px;
+
+}
+.ad{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.admin label{
+    color: black;
+}
+.admin button{
+    background-color: black;
+    font-size: 15px;
+    
+}

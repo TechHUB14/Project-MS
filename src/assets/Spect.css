@@ -1,0 +1,74 @@
+/* Container for the component */
+.spect-container {
+    padding: 20px;
+    background-color: rgba(214, 240, 201, 0.7);
+  }
+  
+  /* Title styling */
+  .spect-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  /* Table styling */
+  .spect-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: rgb(200, 232, 184,0.7);
+    
+  }
+  
+  .spect-table th {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid white;
+    
+ 
+  }
+  
+  .spect-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid white;
+    
+  }
+  
+  /* Alternating row colors */
+  .even-row {
+    background-color: #f9f9f9;
+  }
+  
+  .odd-row {
+    background-color: #ffffff;
+  }
+  .back-button {
+    position: fixed;
+  bottom: 20px;    /* Distance from the bottom of the page */
+  left: 20px;      /* Distance from the left of the page */
+  width: 50px;     /* Width of the button */
+  height: 50px;    /* Height of the button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007bff; /* Blue background */
+  color: #fff;      /* White text color */
+  border-radius: 50%; /* Makes the button circular */
+  font-size: 24px;   /* Icon size */
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+  }
+  .back-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .back-button .icon {
+    margin-right: 8px; /* Space between icon and text */
+  }

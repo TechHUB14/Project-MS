@@ -1,0 +1,90 @@
+/* General container styling */
+
+.bacl{background-image: url("../assets/images/3.jpg");
+height: 100%;}
+
+
+
+
+
+.complaint-list-container {
+    margin-top: 30px;
+    padding: 20px;
+    max-width: 1500px;
+   margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.complaint-list-container p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Table wrapper for horizontal scrolling */
+.table-wrapper {
+    overflow-x: auto; /* Allow horizontal scrolling */
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Table styling */
+.complaint-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin: 0; /* Removes extra margin within the wrapper */
+   
+}
+
+.complaint-table th,
+.complaint-table td {
+    padding: 15px 10px;
+    text-align: left;
+    border: 1px solid rgb(3, 3, 3);
+}
+
+.complaint-table th {
+    background-color: #d350f4;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #050505;
+}
+
+.complaint-table td {
+ 
+    color: #555;
+    font-size: 0.9rem;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* Table striping for better readability */
+.complaint-table tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.complaint-table tr:hover {
+    background-color: #d1e1f4;
+}
+
+/* No row scrolling, allow horizontal scrolling instead */
+@media (max-width: 768px) {
+    .table-wrapper {
+        border: none;
+    }
+
+    .complaint-table {
+        display: table; /* Preserve table display but allow full horizontal scrolling */
+        width: 100%;
+    }
+}

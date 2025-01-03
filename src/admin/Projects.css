@@ -1,0 +1,47 @@
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; /* Space between the two columns */
+    padding: 20px;
+   
+  }
+  .img{ background-image: url("../assets/images/11.png");
+    background-size: cover;
+height: 700px;}
+  
+  .projects-column {
+    width: 48%; /* Adjust width of each column */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .projects-column h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #edb1b1;
+    color: black;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  .text {text-align: center;
+background-color: rgb(119, 202, 119);}  
